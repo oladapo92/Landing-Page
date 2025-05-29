@@ -1,0 +1,50 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Holler3D Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-slate-800 to-slate-900 text-white font-sans">
+  <header class="flex justify-between items-center px-10 py-6">
+    <h1 class="text-3xl font-bold">Holler3D</h1>
+    <nav class="text-sm space-x-6">
+      <a href="#" class="hover:underline">Home</a>
+      <a href="#" class="hover:underline">Portfolio</a>
+    </nav>
+  </header>  <main class="flex flex-col lg:flex-row items-center justify-between px-10 lg:px-32 py-10 gap-10">
+    <!-- Left: Text Content -->
+    <div class="lg:w-1/2 space-y-6">
+      <h2 class="text-2xl font-light tracking-widest uppercase">Offering Prints</h2>
+      <h3 class="text-4xl font-semibold">Portfolio</h3><div class="flex gap-4 mt-4">
+    <button class="bg-white text-slate-800 px-6 py-2 rounded-full font-medium hover:bg-gray-200 transition">Now Shop</button>
+    <button class="border border-white px-6 py-2 rounded-full font-medium hover:bg-white hover:text-slate-800 transition">See Demos</button>
+  </div>
+
+  <div class="mt-6">
+    <h4 class="uppercase text-sm mb-2 tracking-wide">Service Offering</h4>
+    <button class="bg-white/10 border border-white/30 px-4 py-2 rounded-full hover:bg-white/20">Collect</button>
+  </div>
+
+  <p class="mt-8 text-xl font-light">Where ideas come alive in design and interactivity.</p>
+  <p class="text-sm text-gray-300 max-w-md">From 3D product displays to immersive digital environments, this portfolio showcases the future of web experiences. Scroll, explore, and imagine the possibilities.</p>
+
+  <!-- Contact Form -->
+  <div class="mt-10 space-y-4">
+    <input type="email" placeholder="Your email" class="w-full p-3 rounded bg-white/10 border border-white/20 placeholder-white focus:outline-none">
+    <textarea rows="4" placeholder="Your message" class="w-full p-3 rounded bg-white/10 border border-white/20 placeholder-white focus:outline-none"></textarea>
+    <button class="bg-blue-500 px-6 py-2 rounded text-white hover:bg-blue-600">Send</button>
+  </div>
+</div>
+
+<!-- Right: 3D Object Placeholder -->
+<div class="lg:w-1/2 flex justify-center">
+  <div class="relative w-[500px] h-[400px] bg-gray-700 rounded-3xl flex items-center justify-center shadow-xl">
+    <!-- Placeholder for 3D Object -->
+    <span class="text-gray-400">[ 3D Object Coming Soon ]</span>
+  </div>
+</div>
+
+  </main>
+</body>
+</html>
